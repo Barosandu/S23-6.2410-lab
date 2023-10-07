@@ -411,7 +411,7 @@ function queryGPT() {
     "conversation": conversation,
     "collection": "MIT62410lab"
   }
-  // if (embed_mode) args.from_doc = original_file
+  if (embed_mode) args.from_doc = original_file
     url = new URL('https://chattutor-git-nbqjgewnea-uc.a.run.app/ask')
   fetch(url, {
     method: 'POST',
